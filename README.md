@@ -15,21 +15,31 @@ Este projeto demonstra um fluxo completo para empacotar uma aplicação Node.js 
 ## Estrutura do projeto
 
 
-├── app/                     # Código da aplicação Node.js
-│   ├── Dockerfile           # Dockerfile para criar a imagem
-│   ├── package.json
-│   └── index.js
-│
-├── k8s/                     # Manifests Kubernetes para Deployment e Service
-│   ├── deployment.yaml
-│   └── service.yaml
-│
-└── hello-chart/             # Helm Chart para deploy automatizado
-    ├── Chart.yaml
-    ├── templates/
-    │   ├── deployment.yaml
-    │   └── service.yaml
-    └── values.yaml
+app/
+
+    Dockerfile    
+
+    package.json
+
+    index.js
+
+k8s/     
+
+    deployment.yaml
+
+    service.yaml
+
+hello-chart/  
+
+    Chart.yaml
+
+    templates/
+
+        deployment.yaml
+
+        service.yaml
+        
+        values.yaml
 
 ---
 
